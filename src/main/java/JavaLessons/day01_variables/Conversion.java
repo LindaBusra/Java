@@ -11,6 +11,12 @@ public class Conversion {
         char c =67;
         System.out.println("My character:" + c);        //My character:C
 
+        char d = 68;
+        System.out.println(d);  //D
+        System.out.println("d" + d);  //dd
+        System.out.println(d + 2);  //68 + 2 = 70
+
+
         char ch = 'B';
         int bb =Integer.valueOf(ch);
         System.out.println(bb);         //66
@@ -23,8 +29,8 @@ public class Conversion {
 // 2 way to convert char to integer
 
         char aa = 'a';
-        int ch1 = (char)ch;
-        System.out.println(ch1);        //97
+        int ch1 = (char)ch;    // or int ch1 = 'B';
+        System.out.println(ch1);        //66
         int ch2 = Integer.valueOf(aa);
         System.out.println(ch2);        //97
 

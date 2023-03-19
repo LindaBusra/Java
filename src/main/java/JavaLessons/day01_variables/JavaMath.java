@@ -33,13 +33,16 @@ public class JavaMath {
 
         Math.random();
 
-        System.out.println(Math.random());      // 0 to 100
+        System.out.println(Math.random());      // 0 to 100  output is decimal number
 
-        int randomNum = (int)(Math.random() * 101);  // from 0 to 100
+        int randomNum = (int)(Math.random() * 100);  // from 0 to 100  output is  integer number
         System.out.println(randomNum);
 
-        int randomNum1 = (int)(Math.random() * 101+1);  // from 1 to 100
+        int randomNum1 = (int)(Math.random() * 100+1);  // from 1 to 100
         System.out.println(randomNum1);
+
+        System.out.println((int)(Math.random()*10));   //from 0 to 10
+        System.out.println((int)(Math.random()*10 +1) );  //from 1 to 10
 
 
 

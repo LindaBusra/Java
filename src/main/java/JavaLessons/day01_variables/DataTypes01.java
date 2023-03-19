@@ -31,8 +31,11 @@ public class DataTypes01 {
 
         //Type code to find the sum of the ASCII Values of 'X' and 'y' and '?'
         char a='X', b='y',d='?';
-        System.out.println(a+b+d); //272
-        System.out.println('X' + 'y' + '?');
+        System.out.println(a + b);              //209
+        System.out.println(a+""+b);             //Xy
+        System.out.println('X' + 'y');          //209
+        System.out.println(a+b+d);              //272
+        System.out.println('X' + 'y' + '?');    //272
 
 
     }

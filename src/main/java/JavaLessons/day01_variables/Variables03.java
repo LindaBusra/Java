@@ -20,10 +20,10 @@ public class Variables03 {
 
 // Q2-Create a float variable, a long variable, and an integer variable for any 3 items. Print the multiplication of the values on the console with a label.
 
-                float a= 4.15f;
-                long b=12L;
-                int c=100;
-                System.out.println("Multiplication is " + (a*b*c));
+                float aa= 4.15f;
+                long bb=12L;
+                int cc=100;
+                System.out.println("Multiplication is " + (aa*bb*cc));
 
 
 
@@ -40,8 +40,22 @@ public class Variables03 {
                 long d= 2345L;
                 long e=1234556L;
 
-                System.out.println(text + (d+e));
-                System.out.println( text + d*e);
+                System.out.println(text + (d+e));       //text1236901
+                System.out.println( text + d*e);        //text2895033820
+                System.out.println(text+d+e);           //text23451234556
+
+
+
+        //Example for char
+        char a='A', b='B', c='C';
+        System.out.println(a); //A
+        System.out.println(a+1) ; //66
+
+        System.out.println(a+b) ;  //65+66=131
+        System.out.println(a+""+b); //AB
+
+        System.out.println(a+""+b + c);  //AB67
+        System.out.println('A' + 'B');  //131
 
 
             }

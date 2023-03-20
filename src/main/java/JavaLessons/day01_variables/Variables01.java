@@ -10,7 +10,8 @@ public class Variables01 {
 
     System.out.println(myAge);
 
-
+    System.out.println(Byte.MAX_VALUE);
+    System.out.println(Byte.MIN_VALUE);
 /*
   //Data Types
   1-byte:It is used for whole numbers.     -128 0  127
@@ -38,13 +39,17 @@ boolean (1 bit) - char (2 byte) - byte (1 byte) - short (2 byte) --integer (4 by
  */
 
 
-        System.out.println(Integer.MAX_VALUE);
+        System.out.println("integer max value" + Integer.MAX_VALUE);
         int populationOfGermany = 800000000;
         System.out.println(populationOfGermany);
 
+        //Not*** :
+        int max = Integer.MAX_VALUE;   //2147483647
+        int newNum = max + 1;   //-2147483648
+
 
         long populationOfTheWorld = 700000000000L;
-        //long use very much place i memory so we don't use it if it is not necesserar'
+        //long use very much place i memory so we don't use it if it is not necessary
        //java accepts long values as integer as default.  but if your value is greater than the maximum value of integers
         //you will get error. To fix that error you have to put "L" or "l" to the end of the number.
 
@@ -99,13 +104,16 @@ boolean < char < byte < short < integer < long < float < double
 
 
  String name= "Tom Hanks";
+        System.out.println('a');
+        System.out.println('a' + 1);  //97 + 1
+        System.out.println('A' + 1);  //65 + 1
 
 
 //String is non-primitive data type.
 
 
  // I M P O R T A N T !!!!!
-/* what is the differences between primitive and non-primitive datatypes?
+/* what is the differences between primitive and non-primitive datatype?
 1-Primitive data types" have just value but "non-primitive data types" have values and methods.
 2-"primitive data types" were created by java, we cannot create any primitive data type.
 But we can create non-primitive data types whenever we need.
@@ -120,7 +128,7 @@ but all non-primitive data types use same amount of memory
 
  /* Memory Usage in Java
  There are 2 types of memory in Java
- 1-Stack Memory: Stores  i)primitive data   2)References (adresses) of Non-primitive data
+ 1-Stack Memory: Stores  i)primitive data   2)References (addresses) of Non-primitive data
  2-Heap Memory:Stores non-primitive data
 
   */

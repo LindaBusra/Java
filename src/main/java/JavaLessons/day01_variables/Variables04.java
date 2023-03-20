@@ -53,10 +53,11 @@ String.valueOf(Object o)
         System.out.println(String.valueOf(ch));  // "Java"
 
 
+
 //---------------------------------------------------------------------------------------
 
 
-//Subarray of a char Array to String
+        //Sub array of a char Array to String
 
         char ch1[] = {'p', 'r', 'o', 'g', 'r', 'a', 'm'};
         int offset = 3;         //initial offset of the subarray
@@ -65,9 +66,11 @@ String.valueOf(Object o)
 
         // subarray {'o', 'g', 'r', 'm'} is converted to string
         String result = String.valueOf(ch1, offset, length);
-
         System.out.println(result);  // "gram"
+        System.out.println(String.valueOf(ch1,2,3));  //ogr
 
+        //or
+        System.out.println(String.valueOf(ch1).substring(3));   //gram
 
     }
 }

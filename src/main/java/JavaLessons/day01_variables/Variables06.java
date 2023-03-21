@@ -25,6 +25,7 @@ public class Variables06 {
 
 
 //Q7-Type a code to swap two integers.
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter to numbers to swap");
         int num1 = scan.nextInt();

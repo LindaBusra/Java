@@ -21,8 +21,12 @@ public class AutoWidening {
         num5 = (double)num2/num1;   //   55.0/23 = 2.391
         System.out.println("num5: " + num5);
 
-        double num6 = (double)(num2/num1);  //2.0
+        double num6 = (double)(num2/num1);  //2.0  -->result of num2/num1 is int = 2
         System.out.println("num6: " + num6);
+
+
+        double num7 = num2/(double)num1;   //2.391304347826087
+        System.out.println(num7);
 
     }
 

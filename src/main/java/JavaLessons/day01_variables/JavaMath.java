@@ -1,5 +1,7 @@
 package JavaLessons.day01_variables;
 
+import java.sql.SQLOutput;
+
 public class JavaMath {
     public static void main(String[] args) {
 
@@ -45,7 +47,9 @@ public class JavaMath {
         System.out.println((int)(Math.random()*10 +1) );  //from 1 to 10
 
 
-
+        System.out.println(Integer.max(12,43));
+        System.out.println(Integer.min(23,243));
+        System.out.println(Double.sum(12.2, 23.3));
 
 
     }

@@ -6,18 +6,16 @@ public class Pre_Post_Increment03 {
 
 
 
-
-//Question 1- Print final value of a, b, c, d in the console
+//Question 1- Print final value of a, b, c, d on the console
 
         int a = 5;
         int b = 2;
         int c;
         int d;
-        c = ++b;        //c=3;  b=3
-        d = a++;        //d=5;  a=6
-        c++;        //c=4
 
-
+        c = ++b;    //c=3, b=3
+        d = a++;    //d=5, a=6
+        c++;        //c=4;
 
         System.out.println("a: "+a+"\nb: " + b + "\nc: " + c + "\nd: " + d);
 
@@ -38,7 +36,6 @@ public class Pre_Post_Increment03 {
         }
 
 
-
 //-------------------------------------------------------------------------------------------------
 
 
@@ -46,18 +43,13 @@ public class Pre_Post_Increment03 {
 
 
         int e = 10;
-        int f = e + 1;        //num2=11
+        int f = e + 1;      //f=11
 
-        f += 5;          //num2=16
-        int g =  f++;     //num3=16, num2=17
-        int h = ++e;      //num4=11       num1=11
+        f += 5;             //f=16
+        int g =  f++;       //g=16, f=17
+        int h = ++e;        //h=11, e=11
 
-        System.out.println(e + f + g + h);
-
-
-
-
-
+        System.out.println(e + f + g + h);  //11+17+16+11=55
 
 
     }

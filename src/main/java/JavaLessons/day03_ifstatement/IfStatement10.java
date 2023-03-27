@@ -8,6 +8,8 @@ public class IfStatement10 {
 
 
 
+        //Write the day on the console
+
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the initial of day name please");

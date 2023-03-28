@@ -17,7 +17,7 @@ public class Switch02 {
 
         switch ( monthNum) {
             case 1:
-                System.out.println("January");   //ozelikle break koymadik
+                System.out.println("January");   //if there is no break
             case 2:
                 System.out.println("February");
             case 3:
@@ -62,10 +62,10 @@ public class Switch02 {
         String country = scanner.nextLine().toLowerCase();
 
 
-        switch(country) {  //inside the switch paranthesis you can use just int, byte, short, char and string data types.
+        switch(country) {  //inside the switch parenthesis you can use just int, byte, short, char and string data types.
             //boolean, long, float, double can not use in switch statements.
 
-            case "amerika":
+            case "america":
                 System.out.println("US");
                 break;
             case "england":

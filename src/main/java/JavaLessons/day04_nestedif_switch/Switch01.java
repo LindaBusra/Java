@@ -7,8 +7,9 @@ public class Switch01 {
 
 
 
-//swich statement does the same with if-else if, it has just different syntax.
+//switch statement does the same with if-else if, it has just different syntax.
 // You cannot use long, double, float and boolean in switch statements
+//we can use int, byte, char, short, string
 
 
 
@@ -66,7 +67,7 @@ public class Switch01 {
                 System.out.println("it is Saturday");
                 break;
             default:
-                System.out.println("invalid number");   //son kisim oldugundan break yazmaya gerek yok
+                System.out.println("invalid number");   //because of it is in the last part, we don't need to write break
         }
 
 

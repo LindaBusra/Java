@@ -1,44 +1,48 @@
 package JavaLessons.day04_nestedif_switch;
 
+import java.util.Scanner;
+
 public class Switch05 {
 
     public static void main(String[] args) {
 
 
-        //ATM ornegi
+        //ATM project
 
-//        Scanner scan = new Scanner(System.in);
-//        int bakiye = 1000;
-//
-//        System.out.println("yapmak istediginiz islemi seciniz");
-//        System.out.println("1: Bakiye goruntule");
-//        System.out.println("2: Para yatirma");
-//        System.out.println("3: Para cekme");
-//        System.out.println("4: Sistemden cikis");
-//
-//        int islem = scan.nextInt();
-//        switch (islem) {
-//            case 1:
-//                System.out.println("Bakiyeniz " + bakiye + " TL dir");
-//                break;
-//            case 2:
-//                System.out.println("ne kadar para yatiracksiniz? ");
-//                int miktar = scan.nextInt();
-//                bakiye = bakiye + miktar;
-//                System.out.println("Son bakiyeniz " +  bakiye) ;
-//                break;
-//            case 3:
-//                System.out.println("ne kadar para cekeceksiniz? ");
-//                int cekilecek = scan.nextInt();
-//                bakiye = bakiye - cekilecek;
-//                System.out.println("Son bakiyeniz " +  bakiye) ;
-//                break;
-//            case 4:
-//                System.out.println("Sistemden cikiliyor...");
-//                break;
-//            default:
-//                System.out.println("Gecersiz islem");
-//        }
+        Scanner scan = new Scanner(System.in);
+        int balance = 1000;
+
+        System.out.println("Select the action you want to do ");
+        System.out.println("1: View balance");
+        System.out.println("2: Deposit money");
+        System.out.println("3: Withdraw money");
+        System.out.println("4: Exit");
+
+        int action = scan.nextInt();
+        switch (action) {
+            case 1:
+                System.out.println("Your balance is : " + balance + " $");
+                break;
+            case 2:
+                System.out.println("How much money will you deposit? ");
+                int amount = scan.nextInt();
+                balance = balance + amount;
+                System.out.println("Your last balance " +  balance) ;
+                break;
+            case 3:
+                System.out.println("How much money will you get? ");
+                int withDraw = scan.nextInt();
+                balance = balance - withDraw;
+                System.out.println("Your last balance " +  balance) ;
+                break;
+            case 4:
+                System.out.println("Exit from system...");
+                break;
+            default:
+                System.out.println("Invalid action");
+        }
+
+
 
 
 /*Type java code by using switch statement.
@@ -47,21 +51,21 @@ public class Switch05 {
 Ask user to enter marks and print the corresponding grade.
  */
 
-//        int a = 85;
-//
-//        switch(a) {
-//            case 50:
-//                System.out.println("Grade is C");
-//                break;
-//            case 80:
-//                System.out.println("Grade is B");
-//                break;
-//            case 100:
-//                System.out.println("Grade is A" + a);
-//                break;
-//            default:
-//                System.out.println("Invalid");
-//        }
+        int a = 85;
+
+        switch(a) {
+            case 50:
+                System.out.println("Grade is C");
+                break;
+            case 80:
+                System.out.println("Grade is B");
+                break;
+            case 100:
+                System.out.println("Grade is A" + a);
+                break;
+            default:
+                System.out.println("Invalid");
+        }
 
     }
 }

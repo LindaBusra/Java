@@ -62,6 +62,35 @@ public class Switch03 {
 
 
 
+        //to solution is together now
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter a letter to check if it is vowel or not");
+
+        String str = scan.next().toLowerCase().substring(0, 1);
+
+        if (!str.matches("[a-z]")) {
+            System.out.println("type character please");
+        } else {
+
+            char ch2 = str.charAt(0);
+
+            switch (ch2) {
+
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    System.out.println("Vowel");
+                    break;
+                default:
+                    System.out.println("Not wovel");
+
+            }
+        }
+
 //------------------------------------------------------------------------------------------------
 
 
@@ -72,12 +101,12 @@ public class Switch03 {
 
      */
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Type a character");
         System.out.println("Enter your weight");
-        double weight = scan.nextDouble();
+        double weight = scanner.nextDouble();
         System.out.println("Enter your height(m)");
-        double height = scan.nextDouble();
+        double height = scanner.nextDouble();
 
         double bodyMassIdx = weight/(height*height) ;
         System.out.println(bodyMassIdx);

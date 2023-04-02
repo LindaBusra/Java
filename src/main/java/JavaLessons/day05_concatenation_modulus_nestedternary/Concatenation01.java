@@ -39,7 +39,7 @@ public class Concatenation01 {
         System.out.println(s+c+i);      //TomA12
 
 
-        String m =50+30+"Sahin"+40+40; // 80Sahin4040
+        String m =50+30+"Amalie"+40+40; // 80Amalie4040
         System.out.println(m);//
 
 

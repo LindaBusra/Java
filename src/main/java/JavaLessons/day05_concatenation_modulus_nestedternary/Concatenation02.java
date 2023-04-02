@@ -35,11 +35,8 @@ public class Concatenation02 {
         System.out.println(f.toString());
 
 
-        //String concatenation using StringJoiner class
-        StringJoiner g = new StringJoiner(", ");   //StringeJoiner object
-        g.add("Hello");    //String 1
-        g.add("World");    //String 2
-        System.out.println(g.toString());  //Displays result
+
+
 
     }
 }

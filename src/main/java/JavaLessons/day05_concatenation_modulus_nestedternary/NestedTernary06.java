@@ -17,7 +17,7 @@ public class NestedTernary06 {
         double z = 3.4;
 
         double abs = z>=0 ? z : z*(-1) ;
-        double betterAbs = z<0 ? z*(-1) : z ;  // bu daha kullanisli
+        double betterAbs = z<0 ? z*(-1) : z ;  // it is better to use
 
         System.out.println("absolute value is " + abs);
 

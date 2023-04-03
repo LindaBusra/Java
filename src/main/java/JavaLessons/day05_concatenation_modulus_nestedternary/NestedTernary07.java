@@ -31,7 +31,7 @@ public class NestedTernary07 {
         System.out.println("Enter an abbreviations");
         String ch = scan.next();
 
-        System.out.println((ch.length() < 3) ? "It is valid for state abbreviations" : "It is not valid for state abbreviations");
+        System.out.println((ch.length() == 2) ? "It is valid for state abbreviations" : "It is not valid for state abbreviations");
 
     }
 }

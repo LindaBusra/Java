@@ -8,12 +8,12 @@ public class NestedTernary09 {
 
        /* Type code to check the password
         if it has more than 8 characters, initial should be'i'
-        if it has no more than 8 characters, inital should be 'K' (and last character should be '!')
+        if it has no more than 8 characters, initial should be 'K' (and last character should be '!')
         Solve th e task by using nested ternary
          */
         //length() method returns the number of characters in a String
 
-        String pwd = "izmir538";
+        String pwd = "italy538";
 
         String result = (pwd.length() > 8) ? (pwd.charAt(0) == 'i' ? "Valid password" : "Invalid password") : (pwd.charAt(0) == 'K' ? "Valid password" : "Invalid password");
         System.out.println(result);

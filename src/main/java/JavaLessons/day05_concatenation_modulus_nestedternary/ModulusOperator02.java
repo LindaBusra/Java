@@ -8,17 +8,17 @@ public class ModulusOperator02 {
 
 
 //Question 1- Ask user to enter an integer then print "Even" on the console if the number is even.
-//-1000, -10, 0==> We should always consider boundary values. We should use Match.abs(variable name)
+//-1000, -10, 0==> We should always consider boundary values. We should use Math.abs(variable name)
 
 
-//        Scanner scan = new Scanner(System.in);
-//        System.out.println("Enter an integer");
-//        int number = scan.nextInt();
-//        int newNumber = Math.abs(number);
-//
-//        System.out.println((newNumber %2 == 0 ?  "Even" : "Odd"));
-////or
-//        System.out.println("Is the number even? \n-" + (newNumber %2 == 0 ?  true : false));
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter an integer");
+        int number = scan.nextInt();
+        int newNumber = Math.abs(number);
+
+        System.out.println((newNumber %2 == 0 ?  "Even" : "Odd"));
+//or
+        System.out.println("Is the number even? " + (newNumber %2 == 0 ?  true : false));
 
 
 //-------------------------------------------------------------------------------------------------------------
@@ -27,16 +27,17 @@ public class ModulusOperator02 {
 //Question 2- Ask user to enter a 3 digits integer then find the sum of the digits.
 /*For Ex; when the user enters 237 into the system we should first use modulus method like; 237%10= 7 and then */
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan1 = new Scanner(System.in);
         System.out.println("Enter a 3 digits integer");
-        int number = scan.nextInt();
+        int number1 = scan1.nextInt();
 
         //237
-        int last = number % 10;     //7
-        int middle = (number /10) % 10;     //3
-        int first = number/100;     //2
+        int last = number1 % 10;     //7
+        int middle = (number1 /10) % 10;     //3
+        int first = number1/100;     //2
 
         System.out.println("The total is " + (last+middle+first));
+
 
 
 
@@ -62,5 +63,27 @@ int num = 4567;
         int b1 = num/1000;          //4
 
         System.out.println("The total is " + (b1+b2+b3+b4));
+
+
+
+
+        //2nd way, this way is not hardcoding
+
+        int sum = 0;
+        num= Math.abs(num);
+        String nm = String.valueOf(num);
+
+        for(int i=0; i<nm.length(); i++) {
+
+            int d = (int) Math.pow(10,i);
+            sum = sum + (num/d)%10;
+
+        }
+
+        System.out.println("The total is " + sum);
+
+
+
+
     }
 }

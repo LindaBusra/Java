@@ -7,45 +7,50 @@ public class StringManipulations06 {
 
 //How to remove spaces from the beginning and from the end in a String
 
-        String FullName = "       Ali Can   ";
+        String fullName = "       Ali Can   ";
 
-        String noSpace = FullName.trim();
+        String noSpace = fullName.trim();
         System.out.println(noSpace);
 
 
 
-//-------------------------isEmpty------------------------
+//-------------------------isEmpty--------------------------------------------
 
-        int numOfString = FullName.length();
+        int numOfString = fullName.length();
         if (numOfString == 0) {
             System.out.println("You did not enter your name");
         } else {
             System.out.println("You entered your name successfully");
         }
 //or
-        boolean isEmpty = FullName.isEmpty();
+        boolean isEmpty = fullName.isEmpty();
         System.out.println(isEmpty);
+
+
+
+
+//------------------isEmpty() - isBlank() ----------------------------------
+
 //isEmpty() returns true if there is no any character
+//isEmpty() returns false if there is just space character or space characters.
 
-
-
-//------------------isBlank----------------------------------
-
-
-//isEmpty() returns true if there is just space character or space characters or nothing
-        String str = "Ali 12 wooow!";
+        String str = "Emily 12 wooow!";
         Boolean isBlank = str.isBlank();
 
         String str2 = "      ";
-        System.out.println("isEmpty:" + str2.isEmpty());  // false -->cunku aslinda dolu
-        System.out.println("isBlank:" + str2.isBlank());  //true-->bos gibi gorur
+        System.out.println("isEmpty:" + str2.isEmpty());  // false -->because actually it  is not empty
+        System.out.println("isBlank:" + str2.isBlank());  //true-->it seems like empty
+
+        String str3 = "";
+        System.out.println("isEmpty:" + str3.isEmpty());  //true -->because  it  is empty
+        System.out.println("isBlank:" + str3.isBlank());  //true-->because  it  is empty
 
 
 
-//------end Of the String----------------
+//------end Of the String----------------------------------------------------
 
-        String str3= str.replaceAll("\\Z" , "*");
-        System.out.println(str3);
+        String str4= str.replaceAll("\\Z" , "*");
+        System.out.println(str4);
 
 
 

@@ -19,7 +19,7 @@ public class StringManipulations05 {
 
 
 /* ------------- Example for "hard coding"----------------------
-if you type a code which runs just for spesific data, it is "Hard Coding"
+if you type a code which runs just for specific data, it is "Hard Coding"
 and it is not acceptable in coding.
  */
 
@@ -50,7 +50,7 @@ and it is not acceptable in coding.
 
 
 
-//Change all characters diffrent from letters to ?
+//Change all characters different from letters to ?
 
         System.out.println(str.replaceAll("[^A-Za-z]", "?"));
 
@@ -67,11 +67,11 @@ and it is not acceptable in coding.
         System.out.println(str.replaceAll("[^ ]", "*"));
 
 /*      1-  \\s means space character
-        2-  \\S means different form space character
+        2-  \\S means different from space character
         3-  \\d means digits
         4-  \\D means different form digits
-        5-  \\w means A-Z and a-z and _
-        6-  \\W means different from A-Z and a-z and _
+        5-  \\w means A-Z and a-z and 0-9
+        6-  \\W means different from A-Z and a-z and 0-9
         7-  \\p{Punct} means all punctuation marks
         8-  \\P{Punct} means different from all punctuation marks
  */
@@ -82,7 +82,7 @@ and it is not acceptable in coding.
         System.out.println(str.replaceAll("\\S", "}"));
 
 
-//Example- How many characters ara used in string diffrent from space
+//Example- How many characters ara used in string different from space
 
         System.out.println(str.replaceAll(" ", "").length());
 

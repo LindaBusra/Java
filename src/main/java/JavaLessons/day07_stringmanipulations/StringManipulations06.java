@@ -47,13 +47,14 @@ public class StringManipulations06 {
 
 
 
-//------end Of the String----------------------------------------------------
+//------end of the String  --------- start of the String----------------------------------------------------
 
         String str4= str.replaceAll("\\Z" , "*");
         System.out.println(str4);
 
 
-
+        String str5= str.replaceAll("\\A" , ":)");
+        System.out.println(str5);
 
 
 

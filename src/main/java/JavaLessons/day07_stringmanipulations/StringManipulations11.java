@@ -8,15 +8,14 @@ public class StringManipulations11 {
 
 
 
-String str = "Ali is 13 years old, I like Ali, Ali does not like me!...";
+String str = "Emily is 13 years old, I like Emily, Emily does not like me!...";
 
-//Example 1. How manye punctutions are used in the given String
+//Example 1. How many punctuations are used in the given String
 
         System.out.println(str.replaceAll("[^\\p{Punct}]", "").length()  ); //6
         System.out.println(str.replaceAll("\\P{Punct}", "").length()  ); //6
 
 //or
-
         int numOfAllChars = str.length();
         int numOfAllCharsDifFromPuncMarks = str.replaceAll("\\p{Punct}","").length();
 

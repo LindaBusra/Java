@@ -58,7 +58,16 @@ for(int i=0; i<str.length(); i++){
 
 
 
+    //or
+        String str1 = "3456";
+        int sum1 = 0;
 
+        for(int i =0; i<str1.length(); i++) {
+
+            sum1 += Integer.valueOf(str1.charAt(i) + "");
+        }
+
+        System.out.println(sum1);
 
 
 

@@ -41,7 +41,7 @@ public class ForLoop03 {
 //Example 3-Java Example that prints the number of a specified character in a text.
 
 
-        String str = "Merhaba dünya bu java örnekleri";
+        String str = "There are same Java examples here.";
 
 
         char ch = 'e';

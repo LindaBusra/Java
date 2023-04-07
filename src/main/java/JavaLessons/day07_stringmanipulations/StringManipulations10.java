@@ -13,10 +13,9 @@ public class StringManipulations10 {
 
         str.replace("O", "*");
 
-        System.out.println(str.replace('O', '*'));  //Java is **P
+        System.out.println(str);    // no change because of line 14, because we did not assign it to str
 
-        //CharSequence-->String, tekli karakter kullanacaksam char'li secenegi kullanirim
-        //old ve new'deki ayni data turu olmali
+        System.out.println(str.replace('O', '*'));  //Java is **P
 
         System.out.println(str.replace("Java", "*"));  //* is OOP
 
@@ -26,22 +25,21 @@ public class StringManipulations10 {
     //-------------------------------------------------------------------
 
 
-    String st = "Ali is 13 years old, I think he seems 15.";
+    String st = "Jack is 13 years old, I think he seems 15.";
      //Example 1- Change all digits to "*" in the given String
 
-    String newSt =  st.replaceAll("[0-9]", "*") ;   //Ali is ** years old, I think he seems **.
+    String newSt =  st.replaceAll("[0-9]", "*") ;   //Jack is ** years old, I think he seems **.
 
     System.out.println(newSt);
 
 
-    //isaretleri (.  ,  !  ? ) degistirmek
+    //    \\p{Punct} means change all punctuation marks (.  ,  !  ? )
     System.out.println(st.replaceAll("\\p{Punct}", "*"));
 
-    //isaretleri (.  ,  !  ? ) disindaki herseyi degistirmek
+    //    \\P{Punct} means different from all punctuation marks  (.  ,  !  ? )
     System.out.println(st.replaceAll("\\P{Punct}", "*"));
 
     System.out.println(st.replaceAll("[a-z]", ""));
-
 
 
 

@@ -7,7 +7,7 @@ public class StringManipulations07 {
 
         String str = "Java is easy, Java is OOP.";
 
-        //Replacefirst changes just the first one
+        //Replace first changes just the first one
 
         System.out.println(str.replaceFirst("Java", "Apex"));
 

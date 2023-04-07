@@ -97,7 +97,7 @@ and it is not acceptable in coding.
         System.out.println(str.replaceAll("[^a-zA-Z]", "").length());
 
 
-////How many punctitions marks are used in the String
+////How many punctuations marks are used in the String
 
         System.out.println(str.replaceAll("\\P{Punct}", "").length());
 

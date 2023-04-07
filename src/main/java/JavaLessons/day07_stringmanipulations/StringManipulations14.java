@@ -9,7 +9,7 @@ public class StringManipulations14 {
 
 
 
-//in java we have to different ways to concatenate the two different string Together
+//in java we have two different ways to concatenate the two different string Together
 
         String mySentence = "Rock";
         String mySentence1 = "Star";
@@ -59,6 +59,20 @@ public class StringManipulations14 {
         n1=n2;
         n2=temp;
         System.out.println("After swap n1:" + n1 + " n2:" + n2);
+
+
+
+        //swap without using third variable
+        int a = 5;
+        int b= 8;
+
+        System.out.println("Before swap:" + a  + " " + b);
+        //1.way
+        a = a+b;
+        b = a-b;
+        a = a-b;
+
+        System.out.println("After swap:" + a  + " " + b);
 
     }
 }

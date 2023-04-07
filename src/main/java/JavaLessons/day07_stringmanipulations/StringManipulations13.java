@@ -11,10 +11,14 @@ public class StringManipulations13 {
 
         String r = "I like to study Java, learn Java, earn money, Java is easy.";
 
-        int ab = r.lastIndexOf("Java");
-        String newa = r.replaceFirst("like", "my");
+        int ab = r.lastIndexOf("Java") ;
 
-        System.out.println(ab);
+        System.out.println("The order number of last accurrence of \"Java\": " + (ab+1) );   //because of order number +1
+
+
+        //Replace first "Java" with "Javascript"
+        String newa = r.replaceFirst("Java", "Javascript");
+
         System.out.println(newa);
 
 
@@ -29,7 +33,7 @@ public class StringManipulations13 {
 
         String m = "Hello";
 
-
+        //For a given character
         if(m.indexOf('H')==-1) {
             System.out.println("The character does not exist");
         } else if (m.indexOf('H')==m.lastIndexOf('H')) {
@@ -38,9 +42,27 @@ public class StringManipulations13 {
             System.out.println("The character is not unique");
         }
 
-//2- way
+        //2- way : For a given character
         String rst = m.indexOf('H')==-1 ? "The character does not exist" : (m.indexOf('H')==m.lastIndexOf('H') ?   "The character is unique" :   "The character is not unique") ;
         System.out.println(rst);
+
+
+
+
+        //Dynamic way, for every character
+
+        String str = "Hello";
+
+        for(int i=0; i<str.length(); i++) {
+
+            if(str.indexOf(str.charAt(i))==str.lastIndexOf(str.charAt(i))) {
+                System.out.print(str.charAt(i) + " is unique \n");
+            } else {
+                System.out.print(str.charAt(i) + " is not unique \n");
+            }
+        }
+
+
 
 
     }

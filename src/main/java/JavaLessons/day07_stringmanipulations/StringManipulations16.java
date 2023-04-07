@@ -8,7 +8,7 @@ public class StringManipulations16 {
 
 // Type a code to find the number of punctuation marks used in a String. (! , . , ' , - , " , ? , ; )
 
-        String str = "Wow!... Ali is 13 years old, and he is a university.";
+        String str = "Wow!... Emily is 13 years old, and he is a university.";
 
 
 //String strNew = str.replace(" ", "").replaceAll("[a-zA-Z0-9]", "");
@@ -25,8 +25,7 @@ public class StringManipulations16 {
 
 
 
-//regular expression for ALL punctuations can be typed "\\p" ==> By replaceAll() punctuation
-// will be replaced with nothing.
+//regular expression for ALL punctuations can be typed "\\p" ==> By replaceAll() punctuation will be replaced with nothing.
 //So, we can find the number of characters in the statement.
 
 
@@ -55,11 +54,11 @@ public class StringManipulations16 {
     All characters different form digits \\D
 
     All upper and lowercase letters and digits and _: \\w
-    Diffrent from All uppercase, lowercase letters and digits and _:\\W
+    Different from All uppercase, lowercase letters and digits and _:\\W
 
 
     All punctuation marks:   \\p{Punct}
-    Differnt from all puncttaion marks :  \\P{Punct}  or [^\p{Punct}]
+    Different from all punctuation marks :  \\P{Punct}  or [^\p{Punct}]
 
      */
 

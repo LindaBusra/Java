@@ -34,18 +34,18 @@ public class StringManipulations03 {
 
 
 
-//Count the alphabetial characters in a given Strings
+//Count the alphabetical characters in a given Strings
 
 
 
         String str = "    Tom12  Hanks!.... Hello   ";
 
 
-        String str2 = str.replaceAll("[^A-Za-z]", ""); //alfabedeki harfler disinda herseyi kaldirdi
+        String str2 = str.replaceAll("[^A-Za-z]", "");
         int length = str.replaceAll("[^A-Za-z]", "").length();
 
-        String str3 = str.replaceAll("[^A-Za-z0-9]", "");  //harf ve rakamlar disindakileri kaldirdi
-        String str4 = str.replaceAll("[A-Za-z]", "");   //tum harfleri hiclige cevirdi
+        String str3 = str.replaceAll("[^A-Za-z0-9]", "");
+        String str4 = str.replaceAll("[A-Za-z]", "");
 
 
         //^ other than
@@ -57,7 +57,7 @@ public class StringManipulations03 {
 
 
 //if your cod gives you correct output for some data but if it is not giving you
-// correct output for some other data this is called"hard coding" It is accepted.
+// correct output for some other data this is called "hard coding".  It is not acceptable.
 //If your cod works for all data it is called "Dynamic coding"
 
 

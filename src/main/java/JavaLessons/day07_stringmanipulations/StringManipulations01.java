@@ -23,7 +23,7 @@ public class StringManipulations01 {
 
 //if you use char data type in a maths operation, java uses ASCII values. not the characters.
 //When you put "" at the beginning it will be concatenation operation,
-//and you will get string   [java soldan baslar, basta string varsa devami oyle gelir]
+//and you will get string   [java starts from the left]
 
 
 // 2.Way : By using substring()
@@ -32,7 +32,7 @@ public class StringManipulations01 {
         System.out.println(text.substring(0,1));  //first character
         System.out.println(text.substring(text.length()-1));  //last character
 
-//Substring(a,b)-->a:inclusive, b:exlusive
+//Substring(a,b)-->a:inclusive, b:exclusive
 
         System.out.println(text.substring(3,9));
 

@@ -6,12 +6,12 @@ public class StringManipulations02 {
 
 
 
-//Example 1- Type code to se the order number of the first accurence of the character 'a'
+//Example 1- Type code to se the order number of the first occurrence of the character 'a'
 // "I want to learn Java"  --->
 
 
         String str = "I want to learn Java";
-        int a = str.indexOf('a'); //indexOf() method gives you the index of first accurance of a spesific character
+        int a = str.indexOf('a'); //indexOf() method gives you the index of first occurrence of a specific character
         System.out.println(a+1);  //order number is one more that, because order number start from 1
 
 
@@ -24,7 +24,7 @@ public class StringManipulations02 {
 
 
         String s = "I like to study Java, learn Java, earn money, Java is easy.";
-        int b = s.indexOf("Java");   //16: it is index, basladigi yerin indeksini verir
+        int b = s.indexOf("Java");   //16, index, start of Java
         System.out.println(b+1);    //order number
         System.out.println(s.indexOf("*"));
 
@@ -39,7 +39,7 @@ public class StringManipulations02 {
 //-------------------------------------------------------------------------------------------
 
 
-//Example 3 : Type code to check if String has 'a' in it or not. Print appropriate messages for the senarious.
+//Example 3 : Type code to check if String has 'a' in it or not. Print appropriate messages for the scenarios.
 
         String word = "I like to study";
 

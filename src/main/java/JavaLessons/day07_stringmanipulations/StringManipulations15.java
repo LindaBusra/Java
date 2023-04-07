@@ -27,7 +27,7 @@ Password must have at least 1 symbol
         //following can be used to remove space as well, but it is difficult
         //to notice space was removed, because of that above is better to use
 
-        boolean secondRule = pwd.replaceAll("[^a-zA-Z0-9 ]", "" ).length()>0;
+        boolean secondRule = pwd.replaceAll("[^a-zA-Z0-9 ]", "" ).length()>0;       //pwd.replaceAll("\\P{Punct}", "")
 
         System.out.println("Is the password valid? " + (firstRule && secondRule));
 

@@ -18,8 +18,8 @@ String str = "String is a non-primitive data type in Java";
 
 
         boolean result1 = str.isEmpty();
-        System.out.println(result1);    //true
-        System.out.println(" ".isEmpty());  //sadece denedim
+        System.out.println(result1);        // false
+        System.out.println(" ".isEmpty());  //false
 
 
 
@@ -29,14 +29,22 @@ String str = "String is a non-primitive data type in Java";
 
         boolean result2 = str.isBlank();    //isEmpty("")==>true,   isEmpty(" ")==>false
                                             //isBlank("")==>true,   isBlank(" ")==>true
-        System.out.println(result2);    //true
+        System.out.println(result2);        //true
+
+
+
 
 //Example 1:Check if a String has just letters and space in it.
 
         String s = "Learn Java earn money!";
 
-        boolean result3 = s.replaceAll("[a-zA-Z ]", "").isEmpty();
-        //butun harfleri ve bosluklari kaldirdim
+        boolean result3 = s.replaceAll("[a-zA-Z ]", "").isEmpty();   //change letters and space with ""
+
+        if(result3) {
+            System.out.println("String has just letters and space in it.");
+        } else {
+            System.out.println("String has not just letters and space in it.");
+        }
 
         System.out.println(result3);    //false
 
@@ -51,16 +59,14 @@ String str = "String is a non-primitive data type in Java";
 2-it must have 9 digits
  */
 
-        String ssn = "123A45678";
-boolean firstRule = ssn.replaceAll("[0-9]", "").isEmpty();
+        String ssn = "12A545678";
 
-boolean secondRule = ssn.length()==9;
 
-if(firstRule & secondRule) {
-    System.out.println("Valid ssn");
-} else {
-    System.out.println("Invalid ssn");
-}
+        Boolean rule1 = ssn.replaceAll("[0-9]", "").isEmpty();
+        Boolean rule2 = ssn.length()==9;
+
+        System.out.println(rule1 && rule2 ?  "Valid ssn" : "Invalid ssn");
+
 
 
 

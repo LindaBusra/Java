@@ -45,5 +45,17 @@ iv)has 8 characters in total
         System.out.println("Is the password vaild? " + (firstRule && secondRule && thirdRule && fourthRule));
 
 
+
+        //or
+
+        Boolean rule1= psw.indexOf('A') != -1;
+        Boolean rule2 = psw.startsWith("xy");
+        Boolean rule3 = psw.indexOf("W")==6 ?  true : false;
+        Boolean rule4 = psw.length()==8;
+
+        Boolean result =rule1 && rule2 && rule3 && rule4;
+        System.out.println(result);
+
+
     }
 }

@@ -32,7 +32,7 @@ public class ForLoopPatterns04 {
 
 
 
-/* Example  -Type code for this pattern
+/* Example  -Type code by using for loop for this pattern
 
 
         1
@@ -52,6 +52,16 @@ public class ForLoopPatterns04 {
 
         }
 
+
+        //or
+        for(int i=0; i<row; i++) {
+
+            for(int j=i+1; j>0; j--) {
+
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
 
     }
 }

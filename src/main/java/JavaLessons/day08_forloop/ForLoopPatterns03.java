@@ -28,7 +28,7 @@ A A A A A           */
 
 
 
-/*Example 2 -  Type code to draw the following image by using a for loop.
+/*Example 2 -  Type code to draw the following image by using  for loop.
 
 
 

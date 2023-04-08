@@ -25,6 +25,21 @@ public class ForLoopPatterns01 {
           }
           System.out.println();
       }
+        System.out.println();
+
+
+
+      //or  int row = 5; int column=5;
+        int column=5;
+
+        for(int i=1; i<=row; i++) {
+            for(int j=column; j>=i; j--) {
+
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
 
 
 
@@ -48,6 +63,17 @@ public class ForLoopPatterns01 {
             System.out.print(i);
 
             for(int j=i+1; j<=row1; j++) {
+
+                System.out.print( "*");
+            }
+            System.out.println();
+        }
+
+
+        //or   int row = 5; int column=5;
+        for(int i=1; i<=row; i++) {
+            System.out.print(i);
+            for(int j=column; j>i; j--) {
 
                 System.out.print( "*");
             }

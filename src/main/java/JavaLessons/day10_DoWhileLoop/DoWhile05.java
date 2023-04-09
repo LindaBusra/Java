@@ -16,11 +16,13 @@ public class DoWhile05 {
 
         int m = 0;
 
-        while(m<100){
+        int i2=0;
 
-            System.out.print(m+ " ");
-            m +=5;
+        do{
 
+            System.out.println(i2);
+            i2 += 5;
+        }while(i2<100);
 
 
 //----------------------------------------------------------------------
@@ -29,6 +31,7 @@ public class DoWhile05 {
             int i=1;
 
             do{
+
 
                 if(i==3) {
                     continue;
@@ -41,6 +44,8 @@ public class DoWhile05 {
                 i++;
             } while(true);
 
+
+
         }
     }
-}
+

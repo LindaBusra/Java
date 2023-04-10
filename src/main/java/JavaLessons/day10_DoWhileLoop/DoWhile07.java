@@ -6,7 +6,7 @@ public class DoWhile07 {
 
 
 
-        //while loop
+        //Print 10 times Java on the console by using while loop
 
         int i=0;
         while(i<10) {                       //i>0-->infinitive
@@ -21,7 +21,7 @@ public class DoWhile07 {
 
 //----------------------------------------------------------------------------------------
 
-        //Find factorial with while loop
+        //Find factorial of 5 with while loop
 
         int num = 5;
         int fact =1;
@@ -31,7 +31,18 @@ public class DoWhile07 {
             fact =  fact*num;
             num--;
         }
-        System.out.println("Factoriyel: " + fact);
+        System.out.println("Factorial: " + fact);
+
+
+        //or
+        int num1 = 5;
+        int fact1 =1;
+        while(fact1<5) {
+
+            num1 *= fact1;
+            fact1++;
+        }
+        System.out.println("Factorial: " + num1);
 
 
 

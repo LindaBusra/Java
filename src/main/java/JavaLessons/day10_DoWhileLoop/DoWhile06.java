@@ -47,7 +47,7 @@ public class DoWhile06 {
 //----------------------------------------------------------------------------------------------------
 
 
-        //continue-->Print all number except 4 and 6
+        //continue-->Print all positive number less than 10, except 4 and 6
 
         int k = 0;
         while(k<10) {

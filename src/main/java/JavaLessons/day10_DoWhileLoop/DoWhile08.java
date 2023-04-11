@@ -29,7 +29,6 @@ print "You gave a negative number, you exited the program".
             }else{
                 if(num%2!=0){
                     sumOfOddNumbers = sumOfOddNumbers + num;
-                    num++;
                 }
 
             }

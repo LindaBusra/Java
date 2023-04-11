@@ -8,7 +8,7 @@ public class Variables03 {
 
 //Java Variables
 
-//Q1-Create double variables for the prices of any 3 items. Print the sum of the prices on the console with a label.
+//Q04_after-Create double variables for the prices of any 3 items. Print the sum of the prices on the console with a label.
 
                 double shirtPrice = 12.99;
                 double hatPrice = 23.99;

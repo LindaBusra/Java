@@ -7,8 +7,6 @@ public class IfStatement22 {
     public static void main(String[] args) {
 
 
-
-
          /*
 		TASK :
 		Get age and weight from user

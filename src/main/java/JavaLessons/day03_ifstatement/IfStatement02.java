@@ -8,7 +8,7 @@ public class IfStatement02 {
 
 
   //Example 1- Type code to print "Weekday" for the weekday names.
-  //Monda-Friday-->Weekday,  Saturday, Sunday-->Weekend day
+  //Monday-Friday-->Weekday,  Saturday, Sunday-->Weekend day
 
   Scanner scan = new Scanner(System.in);
   System.out.println("Which day is it?");

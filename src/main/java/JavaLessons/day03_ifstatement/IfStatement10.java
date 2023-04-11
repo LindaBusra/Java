@@ -59,7 +59,7 @@ public class IfStatement10 {
         }
         else
         {
-            System.out.print("Try for next time");
+            System.out.print("Static03 for next time");
         }
         //Close the scanner object
         scan.close();

@@ -23,6 +23,7 @@ public class IfStatement20 {
             System.out.println("Invalid input");
         }
 
+
         //or
 
         System.out.println("num is : " + Math.abs(num));

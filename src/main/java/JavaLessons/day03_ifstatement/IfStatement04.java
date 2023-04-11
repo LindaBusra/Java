@@ -6,14 +6,10 @@ public class IfStatement04 {
     public static void main(String[] args) {
 
 
-
-
   /*
-        Ask user ta enter a 4 digits integer, then print the sum of the first
-        and the last digit of the number on console.
-        For example; if user enters 1234 you will add 1 and 4,
-        then print on the console 5
-         */
+        Ask user ta enter a 4 digits integer, then print the sum of the first and the last digit of the number on console.
+        For example; if user enters 1234 you will add 1 and 4,  then print on the console 5          */
+
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter 4 digits integer");
@@ -32,8 +28,10 @@ public class IfStatement04 {
         }
 
 
+
 //-------------------------------------------------------------------------------------------------
 
+        //What is the output?
 
         int n1=9;
 

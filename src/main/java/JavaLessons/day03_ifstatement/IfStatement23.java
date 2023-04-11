@@ -8,7 +8,7 @@ public class IfStatement23 {
 
 
 
-        // TASK : Write a code that get a character(a letter) from user and check if it is capital,lowercase letter or invalid input
+        // TASK : Write a code that get a character(a letter) from user and check if it is capital, lowercase letter or invalid input
 
 
         Scanner scan = new Scanner(System.in);

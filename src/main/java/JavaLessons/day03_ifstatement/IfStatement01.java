@@ -8,7 +8,7 @@ public class IfStatement01 {
 
 /*  if statement: We need to execute same codes under some specific conditions.
     if it rains,  I will cancel the picnic.
-    Conditiom       Result              */
+    Condition       Result              */
 
 
 

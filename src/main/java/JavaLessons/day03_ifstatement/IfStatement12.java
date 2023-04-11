@@ -12,7 +12,9 @@ public class IfStatement12 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Your Score");
-        String inputScore = input.next();                // inputScore can be number and also any letters.
+        String inputScore = input.next();
+
+        // inputScore can be number and also any letters.
         if (!inputScore.matches("[0-9]+")) {       // checking inputScore is number . if inputScore is number <else> code run . Google it (in java Validation input be number)
 
             /*
@@ -21,8 +23,8 @@ public class IfStatement12 {
             String regex = "\\d+";
              */
             System.out.println("Not a number! Enter only number");
-        }
-        else {
+
+        } else {
             int score = Integer.parseInt(inputScore) ;        // string inputScore convert to int score then math logic can be work. otherwise java give error.  google it (in java string to int)
 
             if (score >= 50 && score <= 100) {

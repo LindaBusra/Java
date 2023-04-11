@@ -17,15 +17,15 @@ public class IfStatement03 {
 
         System.out.println("Select the operation you want  : \n1-Addition\n2-Subtraction" +
                 "\n3-Multiplication\n4-Division" );
-        int islem = scan.nextInt();
+        int operation = scan.nextInt();
 
-        if(islem==1) {
+        if(operation==1) {
             System.out.println("The result is " + (num1+num2));
-        } else if (islem==2) {
+        } else if (operation==2) {
             System.out.println("The result is " + (num1 - num2));
-        } else if (islem==3) {
+        } else if (operation==3) {
             System.out.println("The result is " + (num1 * num2));
-        } else if (islem==4) {
+        } else if (operation==4) {
             System.out.println("The result is " + (num1 / num2));
         } else {
             System.out.println("Your enter is not valid.");

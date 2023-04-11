@@ -20,20 +20,29 @@ public class Scanner02 {
         //Example 2-Ask user enter name, and print "Welcome " + name...
 
         Scanner input =new Scanner(System.in);
-        System.out.println("adinizi giriniz");
-        String ad = input.nextLine();   //String ad= scan.next(); tek kelime ile sinirlandrimak istersen
-        System.out.println("Hosgeldin " + ad);
+        System.out.println("Enter your name please");
+        String name = input.next();         //if there is no spase
+        System.out.println("Welcome " + name);
 
 
 
+        //Example 3-Ask user enter a text, and print this text on the console
 
-        //Example 3-Ask user enter to number and print to console the multiply of numbers
+        Scanner input1 =new Scanner(System.in);
+        System.out.println("Write your text please");
+        String text = input1.nextLine();   //if there is space between words
+        System.out.println(text);
+
+
+
+        //Example 4-Ask user enter to number and print to console the multiply of numbers
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("lutfen iki sayi giriniz");
+        System.out.println("Please enter two numbers");
         double s1 = scanner.nextDouble();
         double s2 = scanner.nextDouble();
-        System.out.println("the multiply of numbers: " + (s1*s2));
+        System.out.println("the multiply of numbers : " + (s1*s2));
+
 
 
 

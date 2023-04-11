@@ -7,7 +7,6 @@ public class Scanner07 {
     public static void main(String[] args) {
 
 
-
 //Let's ask the user for the long, short sides and height of the rectangular prism and print the volume of the prism:
 //a, b and c being the side lengths of the rectangular prism;
 
@@ -19,18 +18,16 @@ public class Scanner07 {
         double l = scan.nextDouble();
         double s = scan.nextDouble();
         double h = scan.nextDouble();
-        System.out.println("Volume:  "+ (l*s*h));
+        System.out.println("The volume is:" + (l*s*h));
 
 
 
 
-
-//Ask user to enter name and print it on the console (first letter of name in uppercase)
+//Ask user to enter name and print first letter of the name in uppercase on the console
         Scanner scanner= new Scanner(System.in);
         System.out.println("What is your name");
         char ch= scanner.next().toUpperCase().charAt(0);
         System.out.println(ch);
-
 
 
 

@@ -1,6 +1,7 @@
 package JavaLessons.day02_typecasting_scanner;
 
 
+import java.sql.SQLOutput;
 
 public class WrapperClass {
     public static void main(String[] args) {
@@ -29,8 +30,15 @@ public class WrapperClass {
         boolean     Boolean
         char        Character
 
+        //Note: MIN_VALUE, MAX_VALUE, SIZE are "constant variables" that contains "constant value"
+        //If a variable has a constant value use just wrapper class by typing the initial in uppercase only
+        // and use the constant variable in uppercase only nad adding "_" between the multiple words.
+
          */
 
+        System.out.println(Byte.MIN_VALUE);  //-128
+        System.out.println(Integer.SIZE); //32
+        System.out.println(Short.MIN_VALUE + Short.MAX_VALUE);  //-1
 
         int i = 12;  //There is no method
         Integer k = 13;
@@ -69,14 +77,11 @@ public class WrapperClass {
 
         int ii =12;  //there is no method, just value... it is primitive.
         Integer kk = ii; //  there are many methods in the coding.
-        // the number of 12 has some methods.
         System.out.println(kk);      //12
 
 
         char cc = 'A';
         Character dd = 'A';  //
-
-
         System.out.println(dd);      //A
 
 
@@ -90,10 +95,10 @@ public class WrapperClass {
 
 
 
-//Unboxing :  To convert "wrapper class" to its priitive data"
+//Unboxing :  To convert "wrapper class" to its primitive data"
 
-        Short wss = 34;  //open to be added the methods. We have an orange garden.
-        short ss = wss;   //container is closed to add methods. just live that orange and leave it.
+        Short wss = 34;  //open to be added the methods.
+        short ss = wss;   //container is closed to add methods.
 
 
 

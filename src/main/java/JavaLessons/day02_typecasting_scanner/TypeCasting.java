@@ -16,7 +16,7 @@ boolean     char        byte        short       int         long       float    
 
 
 For ex;
-**If you convert small data type to large dat type it is called 'Auto widening'.
+**If you convert small data type to large data type it is called 'Auto widening'.
 **If you convert large data type to small data type it is called 'Explicit Narrowing'.
 
      */
@@ -24,12 +24,12 @@ For ex;
 
         short num1 =255;
         byte num2 = (byte) num1;
-        System.out.println(num2);
+        System.out.println(num2);       //-1,  explicit narrowing, form short to byte
 
 
         byte age= 12;
         int myAge = age;  // 12
-        System.out.println(age);
+        System.out.println(age);        //auto widening
 
 
         short populationOfVillage = 21000;
@@ -40,11 +40,11 @@ For ex;
         //Explicitly narrowing
         double x = 23.45;
         long y =(long)x;
-        System.out.println(y);   //23
+        System.out.println(y);   //23, because long is whole number,  explicit narrowing
 
 
 
-        //Example1- Create 2 integervariables and a string value.
+        //Example1- Create 2 integer variables and a string value.
 
         int i1 = 13, i2 = 21;
         String text = "Tom";
@@ -68,48 +68,37 @@ For ex;
 
 //Type Casting
 
-        /*    Autowidening
+/*      Auto-widening
         java can put small data into larger data types automatically.
-        When you put small data type into a large data type you can widen the samll
-        data container into a bigger container data type */
+        When you put small data type into a large data type you can widen the small
+        small data container into a bigger container data type
+ */
 
 
 //Auto-widening
+
         int m = 14000;
         System.out.println("m is " + m);
 
         double d = m;
         System.out.println("d is " + d);
 
-        byte k = (byte) m;
-        System.out.println("k is " + k);
-
-
-//Expliciftly Narrowing : Java does not put large data types into small data types
-
-        int n = 15;
-        byte b = (byte) n;
-        System.out.println(b);
-
-
-        //Type Casting   numeric primitive data types:  byte<short<int<long<float<double
-
-        //java can put small data types into large data types automatically.
-        //When you put small data type into a large data type, you are widening the small try {
-        //AutoWidening
-
         int nn = 14;
         double dd = nn;
-        System.out.println(dd);  //14.0   Autowidening
+        System.out.println(dd);  //14.0   Auto-widening
 
 
 
-        //Explicit narrowing: java does not put large data types into small data types.
+//Explicitly Narrowing : Java does not put large data types into small data types
+//Type Casting   numeric primitive data types:  byte<short<int<long<float<double
 
-        int mm= 15;
-        byte bb = (byte)mm;
+        int n = 14000;
+        byte k = (byte) n;
+        System.out.println("k is " + k);  //-80  (256*54+176)-->176-127=49   -->128-49+1=80  result is -80
 
-
+        int h = 15;
+        byte b = (byte) h;
+        System.out.println(b);
 
 
 

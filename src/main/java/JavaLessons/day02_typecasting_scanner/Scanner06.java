@@ -27,8 +27,11 @@ then print them like the given format
 
         String ssnNumber1=ssnNumber.substring(0,4);
         String ssnNumber2=ssnNumber.substring(4).replaceAll("[0-9]", "*");
+        System.out.println(firstName + " " + middleName + " " + lastName + "\n" + ssnNumber1+ssnNumber2);
 
 
+        //or
+        String ssn = ssnNumber.substring(0,3) + "*****";
         System.out.println(firstName + " " + middleName + " " + lastName + "\n" + ssnNumber1+ssnNumber2);
 
     }

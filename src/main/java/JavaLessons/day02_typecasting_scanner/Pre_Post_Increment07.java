@@ -4,9 +4,14 @@ public class Pre_Post_Increment07 {
 
     public static void main(String[] args) {
 
-    //Question 1
+
+
+        //Question 1
         int x = 0;
-        while(x++ <10) {}
+        while(x++ <10) {
+
+
+        }
 
         String message = x > 10 ? "Greater than" : "Less than" ;
         System.out.println(message + ", " + x);
@@ -14,7 +19,13 @@ public class Pre_Post_Increment07 {
 
 
 
-    //Question 2
+
+
+
+
+
+
+        //Question 2
 
         int m = 9, n = 15;
 
@@ -24,6 +35,7 @@ public class Pre_Post_Increment07 {
         }
 
         System.out.println(m +  n);
+
 
 
     }

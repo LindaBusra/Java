@@ -10,10 +10,8 @@ public class ExplicitNarrowing {
 
 
 
-
         byte num3 = (byte) num1;  //50     //byte from -128 to 127
         System.out.println(num3);  //50
-
 
 
 

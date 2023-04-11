@@ -42,17 +42,7 @@ public class Scanner01 {
 //----------------------------------------------------------------------------
 
 
-       /*      Scanner class is used to get the data form user into our codes.
-       Scanner class-->getting any kind of data from user
-       How do we get data from the user?
-       1-Step: Create an object from "Scanner Class"
-
-Class Name   Object Name Assignment operator new Keyword     Constructor-->Class Name + ()  ;
-Scanner      scan        =                   new             Scanner(System.in);
-
-        2-Step: Give a message yo user about the data you ask
-  */
-
+       //Scanner class is used to get the data from user into our codes.
 
 
         System.out.println("What is your name?");
@@ -61,7 +51,7 @@ Scanner      scan        =                   new             Scanner(System.in);
 
         System.out.println("What is your age?");
         int age1 = scan.nextInt();
-        System.out.println("Welcome " + name1 + ". Your age is " + age1 + ". You are a very beatiful child :)");
+        System.out.println("Welcome " + name1 + ". Your age is " + age1 );
 
 
     }

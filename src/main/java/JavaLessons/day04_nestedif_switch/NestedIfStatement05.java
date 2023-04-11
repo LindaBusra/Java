@@ -18,8 +18,7 @@ public class NestedIfStatement05 {
         int weight=sc.nextInt();
 
 
-        if(age>=18)
-        {
+        if(age>=18) {
             if(weight>50)
             {
                 System.out.println("The person is eligible to donate blood");
@@ -28,9 +27,7 @@ public class NestedIfStatement05 {
             {
                 System.out.println("The person is not eligible to donate blood");
             }
-        }
-        else
-        {
+        } else {
             System.out.println("Age must be greater than 18");
         }
 

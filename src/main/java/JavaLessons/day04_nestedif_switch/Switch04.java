@@ -35,9 +35,9 @@ public class Switch04 {
 
         Scanner scan =  new Scanner(System.in);
         System.out.println("what day of the week is today?");
-        byte gun = scan.nextByte();
+        byte day = scan.nextByte();
 
-        switch(gun) {
+        switch(day) {
             case 1:
             case 2:
             case 3:
@@ -59,8 +59,8 @@ public class Switch04 {
 //------------------------------------------------------------------------------------------------
 
 
-        int day = 4;
-        switch (day) {
+        int days = 4;
+        switch (days) {
             case 6:
                 System.out.println("Today is Saturday");
                 break;

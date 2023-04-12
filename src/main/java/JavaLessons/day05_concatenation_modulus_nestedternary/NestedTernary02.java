@@ -41,7 +41,7 @@ public class NestedTernary02 {
 
 
 
-// Type a program to print the ninimum of 2 doubles on the console. use ternary
+// Type a program to print the minimum of 2 doubles on the console. use ternary
 
     double x = 12.3;
     double y = 21.5;

@@ -36,6 +36,15 @@ public class Concatenation02 {
 
 
 
+        String m1 = new String("You");
+        String m2 = new String("are");
+        String m3 = new String("the");
+        String m4 = new String("best");
+        String str = String.join("* ", m1, m2, m3, m4);
+        System.out.println(str.toString());
+
+
+
 
 
     }

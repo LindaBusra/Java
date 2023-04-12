@@ -40,6 +40,19 @@ public class Concatenation03 {
 
 
 
+        //Using StringJoiner
+        StringJoiner st = new StringJoiner(", ");
+        String text[] = {"Hello", "Everyone", "I", "hope", "you", "are", "fine"}       ;
+
+        for(int i=0; i<text.length; i++) {
+
+            st.add(text[i]);
+        }
+        System.out.println(st);
+
+
+
+
         //StringJoiner Example: Merge Two StringJoiner
 
         StringJoiner joinNames1 = new StringJoiner(",", "[", "]");   // passing comma(,) and square-brackets as delimiter

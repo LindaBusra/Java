@@ -14,7 +14,7 @@ public class NestedTernary03 {
         System.out.println("number is odd");
     }
 
-        System.out.println(num%2==0 ? "number is evenr" : "number is odd");
+        System.out.println(num%2==0 ? "number is even" : "number is odd");
 
 
 //------------------------------------------------------------------------------------

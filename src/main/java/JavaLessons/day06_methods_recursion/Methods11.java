@@ -16,7 +16,7 @@ public class Methods11 {
 
 
 
-    public static int sumOfArrayElements(int[] m) {               //  int[] m = x[1] ={1,7,1}
+    public static int sumOfArrayElements(int[] m) {               //  int[] m = X[1] ={1,7,1}
         int result = 0;
 
         for(int i=0; i<m.length; i++) {   //i=0  i<3
@@ -40,7 +40,7 @@ public class Methods11 {
 
 
 
-/*int[] m = x[1];      int m = {1,7,1,};
+/*int[] m = X[1];      int m = {1,7,1,};
 
 i=0-->result = 0+ m[i]-->0 + m[0] -->0 + 1 = 1
 i=1 -->result = 1+ m[1] + 1+ 7=8

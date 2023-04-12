@@ -11,7 +11,7 @@ public class StringManipulations04 {
         boolean isExist = str.contains("va");
         System.out.println(isExist);
 
-        boolean isExist1 = str.contains("x");
+        boolean isExist1 = str.contains("X");
         System.out.println(isExist1);
 
         boolean startsWith = str.startsWith("J");

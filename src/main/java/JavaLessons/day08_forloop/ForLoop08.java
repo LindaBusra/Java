@@ -13,7 +13,12 @@ public class ForLoop08 {
         }
         System.out.println();
 
+        for(int i=0, j=0;  i<11 && j<5; i++, j++) {
 
+            System.out.println(i + "-" + j);
+        }
+
+        System.out.println();
 
 
         //two for loop

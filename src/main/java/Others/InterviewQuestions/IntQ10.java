@@ -33,7 +33,7 @@ public class IntQ10 {
             }
         }
 
-        System.out.println(numOfWords);
+        System.out.println("Number of the words :" + numOfWords);
 
     }
 }

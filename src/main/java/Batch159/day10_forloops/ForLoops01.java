@@ -1,6 +1,6 @@
 package Batch159.day10_forloops;
 
-public class ForLoop01 {
+public class ForLoops01 {
 
 
  /*     1)Loops are used for "repeated actions" in Java

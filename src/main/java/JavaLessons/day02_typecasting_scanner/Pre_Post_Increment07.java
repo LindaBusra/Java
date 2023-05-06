@@ -6,7 +6,7 @@ public class Pre_Post_Increment07 {
 
 
 
-        //Question 1
+        //Question 1- What is the result?
         int x = 0;
         while(x++ <10) {
 

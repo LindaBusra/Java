@@ -14,7 +14,7 @@ public class Pre_Post_Increment05 {
 
 
         int x = 15;
-        int y = x--;            //y=15; x=14
+        int y = x--;            //y=15; X=14
         System.out.println(x);  //14
         System.out.println(y);  //15
 

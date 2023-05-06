@@ -43,13 +43,13 @@ public class Pre_Post_Increment03 {
 
 
         int e = 10;
-        int f = e + 1;      //f=11
+        int f = e + 1;
 
-        f += 5;             //f=16
-        int g =  f++;       //g=16, f=17
-        int h = ++e;        //h=11, e=11
+        f += 5;
+        int g =  f++;
+        int h = ++e;
 
-        System.out.println(e + f + g + h);  //11+17+16+11=55
+        System.out.println(e + f + g + h);
 
 
     }

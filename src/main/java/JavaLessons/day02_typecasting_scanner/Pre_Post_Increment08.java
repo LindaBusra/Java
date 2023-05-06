@@ -30,7 +30,7 @@ public class Pre_Post_Increment08 {
         x = 9;    y = 10;
         z = ++x + y++;
 
-        System.out.println("x:" + x + " y:" + y + " z:" + z);
+        System.out.println("X:" + x + " y:" + y + " z:" + z);
 
 
 

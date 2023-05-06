@@ -35,10 +35,10 @@ public class Pre_Post_Increment02 {
 //Question-2 : What is the final result of a+b+c+y?
         int x= 10;
 
-        int y=++x;      //y=11, x=11;
-        int e=--x;      //e=10, x=10;
-        int f= x++;     //f=10, x=11;
-        int g= x--;     //g=11, x=10
+        int y=++x;      //y=11, X=11;
+        int e=--x;      //e=10, X=10;
+        int f= x++;     //f=10, X=11;
+        int g= x--;     //g=11, X=10
 
         System.out.println(e+f+g+y);  //10+10+11+11=42
 

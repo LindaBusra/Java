@@ -7,7 +7,7 @@ public class Scanner03 {
     public static void main(String[] args) {
 
 
-//Take string inputs from users and check if the strings are anagram
+//Take two string inputs from users and check if the strings are anagram
 
         // create an object of Scanner class
         Scanner input = new Scanner(System.in);

@@ -6,10 +6,10 @@ public class Pre_Post_Increment01 {
 //Question1-
 
         int x=10;
-        System.out.println(x++);    //  output: 10   x= 11
-        System.out.println(++x);    //  output=12  x=12
-        System.out.println(x--);    //output = 12  x=11
-        System.out.println(--x);     //output = 10  x=10
+        System.out.println(x++);    //  output: 10   X= 11
+        System.out.println(++x);    //  output=12  X=12
+        System.out.println(x--);    //output = 12  X=11
+        System.out.println(--x);     //output = 10  X=10
 
 
 

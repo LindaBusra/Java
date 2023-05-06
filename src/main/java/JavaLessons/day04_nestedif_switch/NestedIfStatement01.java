@@ -46,15 +46,15 @@ public class NestedIfStatement01 {
 
 
         if (x == 0)  {
-            System.out.println("x is zero");
+            System.out.println("X is zero");
         } else {
             if (x > 0)
             {
-                System.out.println("x is positive");
+                System.out.println("X is positive");
             }
             else
             {
-                System.out.println("x is negative");
+                System.out.println("X is negative");
             }
         }
 

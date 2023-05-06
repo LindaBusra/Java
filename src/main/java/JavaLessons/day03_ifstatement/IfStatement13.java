@@ -13,7 +13,7 @@ public class IfStatement13 {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter x point");
+        System.out.println("Enter X point");
         int x = scanner.nextInt();
 
         System.out.println("Enter y point");
@@ -29,7 +29,7 @@ public class IfStatement13 {
         } else if (x > 0 && y < 0) {
             System.out.println("value that you input belongs to fourth region");
         } else if (x != 0 && y == 0) {
-            System.out.println("value that you input belongs to x point");
+            System.out.println("value that you input belongs to X point");
         } else if (x == 0 && y != 0) {
             System.out.println("value that you input belongs to y point");
         } else {

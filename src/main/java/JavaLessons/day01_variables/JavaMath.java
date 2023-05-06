@@ -6,25 +6,25 @@ public class JavaMath {
     public static void main(String[] args) {
 
 
-//        The Math.max(x,y) method can be used to find the highest value of x and y:
+//        The Math.max(X,y) method can be used to find the highest value of X and y:
 
         int a = Math.max(5, 10);
         System.out.println(a);      //10
 
 
-//        The Math.min(x,y) method can be used to find the lowest value of x and y:
+//        The Math.min(X,y) method can be used to find the lowest value of X and y:
 
         int b = Math.min(5, 10);
         System.out.println(b);      //5
 
 
-//        The Math.sqrt(x) method returns the square root of x:
+//        The Math.sqrt(X) method returns the square root of X:
 
         Math.sqrt(64);
         System.out.println(Math.sqrt(64));  //8
 
 
-//        The Math.abs(x) method returns the absolute (positive) value of x:
+//        The Math.abs(X) method returns the absolute (positive) value of X:
 
         Math.abs(-4.7);
         System.out.println(Math.abs(-4.7)); //4.7

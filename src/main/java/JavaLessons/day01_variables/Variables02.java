@@ -35,38 +35,36 @@ public class Variables02 {
         //not
         System.out.println("-----------------");
         char ch = 66;
-        System.out.println(ch);             //B
-        System.out.println(ch + "cde");     //Bcde
-        System.out.println(ch + 'c');       // 66 + 99 = 165
-        System.out.println(ch + 3);         //69
+        System.out.println(ch);
+        System.out.println(ch + "cde");
+        System.out.println(ch + 'c');
+        System.out.println(ch + 3);
 
 
 
-        char chh = 98;   //b
+        char chh = 98;
 
-        System.out.println(chh);  //b
-        System.out.println(chh + 1);  //99
-        System.out.println(chh + 'c'); //98+99 = 197
-        System.out.println(chh + "d"); // bd
+        System.out.println(chh);
+        System.out.println(chh + 1);
+        System.out.println(chh + 'c');
+        System.out.println(chh + "d");
 
 
         char chr = 'A';
-        System.out.println(chr);     //A
-        System.out.println(chr +1);  //66
-        System.out.println(chr + 'B');   //65+66=131
-        System.out.println(chr + "B");       //AB
-        System.out.println('A');        //A
+        System.out.println(chr);
+        System.out.println(chr +1);
+        System.out.println(chr + 'B');
+        System.out.println(chr + "B");
+        System.out.println('A');
 
 
         //not
         byte a = 127;
-        System.out.println(Byte.MAX_VALUE); //127
-        // byte b = a + 1;  //cast to 'byte'
         byte b = (byte) (a +1);
 
-        System.out.println(b);      //-128
-        System.out.println(b + 1);  // -128 + 1 = -127
-        System.out.println(a+1);    //128
+        System.out.println(b);
+        System.out.println(b + 1);
+        System.out.println(a+1);
 
 
         // create 3 integer variables, assign values to them, print them on the console one by one

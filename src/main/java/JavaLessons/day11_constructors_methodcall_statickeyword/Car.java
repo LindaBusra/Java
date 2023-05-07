@@ -27,7 +27,7 @@ What is the different between "Constructors and methods"
 
     public Car() {
 
-        System.out.println("Car constructor 1");
+        System.out.println("Vehicle constructor 1");
 
             }
 

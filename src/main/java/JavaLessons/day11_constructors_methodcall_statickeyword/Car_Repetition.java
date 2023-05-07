@@ -51,7 +51,7 @@ but method names can be assigned by developer.
     }
 
     public Car_Repetition(String make, String model, double price, int year) {
-        this.make = make;       //it means in the Car class...
+        this.make = make;       //it means in the Vehicle class...
         this.model = model;
         this.price = price;
         this.year = year;

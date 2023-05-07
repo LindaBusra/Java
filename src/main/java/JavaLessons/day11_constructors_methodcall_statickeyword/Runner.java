@@ -4,7 +4,7 @@ public class Runner {
 
     public static void main(String[] args) {
 
-        //Create an object from Car class
+        //Create an object from Vehicle class
         //Example   Scanner scan = new Scanner(System.in);
 
        Car audi = new Car();
@@ -34,7 +34,7 @@ public class Runner {
 
 
 
-//Car clasi ile Runnner ayni package'da ise birsey import etmeye gerek tok.
+//Vehicle clasi ile Runnner ayni package'da ise birsey import etmeye gerek tok.
 
 //If any class you want to use, is in the same package no need to import it.
 

@@ -89,8 +89,8 @@ public class List01 {
         //Example 1-Type code to check if the given list is emty or not
 
         ArrayList<Character> c = new ArrayList<>();
-        c.add('x');
-        c.add('x');
+        c.add('X');
+        c.add('X');
 
 
         //1.way

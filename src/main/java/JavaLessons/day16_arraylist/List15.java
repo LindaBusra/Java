@@ -40,15 +40,15 @@ public class List15 {
         list.remove(2);
 
 
-        //Try to remove an element from list
+        //Static03 to remove an element from list
         list.remove(1);
         System.out.println(list);
 
-        //Try to add an element into the list
+        //Static03 to add an element into the list
         list.add(7);
         System.out.println(list);
 
-        //Try to delete all elements from the list
+        //Static03 to delete all elements from the list
         list.clear();
         System.out.println(list);
 

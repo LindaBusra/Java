@@ -26,7 +26,7 @@ public class MultidimensionalArrays04 {
 
 // max=Math.max(max, n) -->max() method selects the maximum value of the given two numbers
 
-//or we can solve with help of -->int x = Integer.MIN_VALUE;
+//or we can solve with help of -->int X = Integer.MIN_VALUE;
 
 
     }

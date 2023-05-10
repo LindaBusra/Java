@@ -2,7 +2,7 @@ package JavaLessons.day15_multidimensionalarray;
 
 import java.util.Arrays;
 
-public class MultidimensionalArrays10 {
+public class MultiDimensionalArrays10 {
     public static void main(String[] args) {
 
 

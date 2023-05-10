@@ -1,6 +1,6 @@
 package JavaLessons.day15_multidimensionalarray;
 
-public class MultidimensionalArrays04 {
+public class MultiDimensionalArrays04 {
 
     public static void main(String[] args) {
 

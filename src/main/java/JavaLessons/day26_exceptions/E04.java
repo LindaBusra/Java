@@ -2,6 +2,7 @@ package JavaLessons.day26_exceptions;
 
 import java.io.*;
 class E04 {
+
     void myMethod(int num) throws IOException, ClassNotFoundException {
         if (num == 1)
             throw new IOException("IOException Occurred");

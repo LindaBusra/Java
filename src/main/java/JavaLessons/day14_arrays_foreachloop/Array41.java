@@ -33,9 +33,9 @@ public class Array41 {
 
         //to compare new array with the orginal array.
         if (Arrays.equals(newSrr, srr)) {                                   //compara to arrays
-            System.out.println("Array elements are in natural order");
+            System.out.println("Arrays04 elements are in natural order");
         } else {
-            System.out.println("Array elements are not in natural order");
+            System.out.println("Arrays04 elements are not in natural order");
         }
 
         System.out.println();
@@ -55,9 +55,9 @@ public class Array41 {
 //
 //
 //        if (sameStr.equals(str)) {                              // esitse
-//            System.out.println("Array elements are in natural order");
+//            System.out.println("Arrays04 elements are in natural order");
 //        } else {
-//            System.out.println("Array elements are not in natural order");
+//            System.out.println("Arrays04 elements are not in natural order");
 //        }
 
 //---------------------------------------------------------------------------------------------------

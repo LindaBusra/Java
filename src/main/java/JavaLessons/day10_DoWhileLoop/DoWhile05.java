@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 public class DoWhile05 {
 
@@ -28,11 +28,10 @@ public class DoWhile05 {
 //----------------------------------------------------------------------
 
 
+
             int i=1;
 
             do{
-
-
                 if(i==3) {
                     continue;
                 } else if(i==5) {

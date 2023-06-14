@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 public class DoWhile03 {
     public static void main(String[] args) {
@@ -53,7 +53,7 @@ public class DoWhile03 {
             j++;
         }
 
-        // Test expression
+        // Test1 expression
         while (j < 6);
 
         System.out.println();

@@ -8,7 +8,7 @@ public class Array31 {
     public static void main(String[] args) {
 
 
-        ///Java Program to Find the Middle Element of an Array
+        ///Java Program to Find the Middle Element of an Arrays04
 
 
         //Original array

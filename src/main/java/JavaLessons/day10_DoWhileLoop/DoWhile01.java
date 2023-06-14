@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 public class DoWhile01 {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class DoWhile01 {
             i++;
         }
 
-        // Test expression
+        // Test1 expression
         while (i < 6);
 
         System.out.println();
@@ -69,19 +69,6 @@ public class DoWhile01 {
    } while(numb > 0);
 
         System.out.println("The digits of number: " + sumt);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

@@ -8,7 +8,7 @@ public class Array43 {
     public static void main(String[] args) {
 
 
-//Example 1- Type code to print the sum of minimum and max integers in on Array
+//Example 1- Type code to print the sum of minimum and max integers in on Arrays04
 
         int[] arr = {12,56,89,5,34,92};
 

@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 import java.util.Scanner;
 
@@ -49,16 +49,8 @@ java program that finishes the process and prints it to the screen
         sum = sum+num;
 
 
-    }while(num!=0);
+    }while(num!=0);     //while(true)
         System.out.println("The sum of the number is: " + sum);
-
-
-
-
-
-
-
-
 
 
 

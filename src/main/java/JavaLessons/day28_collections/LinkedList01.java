@@ -17,7 +17,7 @@ When I remove an element java need to re-indexing, and it is so much task for ja
 
 ArrayList are not successfully in removing elements
 
-[A,B,C,D,E] If I will put x between A and B, index of element will be 1, and the others need re-indexing, to much task for java
+[A,B,C,D,E] If I will put X between A and B, index of element will be 1, and the others need re-indexing, to much task for java
 
 ArrayList are not successfully in adding elements
 

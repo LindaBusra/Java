@@ -19,7 +19,7 @@ public class E05 {
 
     public static char getCharacter(String str, int idx){
 
-        char ch =' ';  //'x' if you want you can put any character instead of ' '
+        char ch =' ';  //'X' if you want you can put any character instead of ' '
         try {
             ch = str.charAt(idx);
         }catch(StringIndexOutOfBoundsException e){

@@ -12,7 +12,7 @@ public class Array40 {
 
       String a ="09/20/2022";
 
-      String b[]= a.split("/");     //split method returns Array
+      String b[]= a.split("/");     //split method returns Arrays04
 
       System.out.println(Arrays.toString(b));     //[09, 20, 2022]
 

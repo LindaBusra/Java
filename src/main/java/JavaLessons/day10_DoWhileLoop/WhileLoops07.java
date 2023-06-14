@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 import java.util.Scanner;
 

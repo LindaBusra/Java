@@ -8,7 +8,7 @@ public class Arrays_practice {
     public static void main(String[] args) {
 
 
-//Example 1- Ask user to enter the names into the application by using an Array then take the number of the elements and
+//Example 1- Ask user to enter the names into the application by using an Arrays04 then take the number of the elements and
 // then print them on the console.
 
 

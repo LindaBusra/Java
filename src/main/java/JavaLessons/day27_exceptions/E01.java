@@ -15,7 +15,7 @@ public class E01 {
             System.out.println(arr.length);
 
         } catch (NegativeArraySizeException e) {
-            System.out.println("Array size can not be negative");
+            System.out.println("Arrays04 size can not be negative");
         }
 
         Thread.sleep(2000);  // it stopped the system 2 seconds.

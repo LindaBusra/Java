@@ -1,4 +1,4 @@
-package JavaLessons.day22_inheritance_polymorphism_Overriding;
+package JavaLessons.day22_inheritance_polymorphism_overriding;
 
 
 public class Test {

@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 public class WhileLoops03 {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class WhileLoops03 {
         int m =1;
 
         while(m<11) {
-            System.out.println(e + "x" + m + "="  + e*m);
+            System.out.println(e + "X" + m + "="  + e*m);
             m++;
         }
 

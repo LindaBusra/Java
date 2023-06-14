@@ -20,7 +20,7 @@ public class Array01 {
      */
 
 
-    //How to create an Array:  (new:create from scratch)
+    //How to create an Arrays04:  (new:create from scratch)
 
     String names[] = new String[5];     //How many elements in array
     //To create an array, you must inform Java about the number of data you want to store in the array
@@ -37,7 +37,7 @@ public class Array01 {
 
     System.out.println(Arrays.toString(names));
 
-    System.out.println(names[0]);   //To print a specific element in an Array
+    System.out.println(names[0]);   //To print a specific element in an Arrays04
 
 
 

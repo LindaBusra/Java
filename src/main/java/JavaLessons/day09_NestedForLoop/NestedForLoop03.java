@@ -1,4 +1,4 @@
-package JavaLessons.day09_NestedForLoop;
+package JavaLessons.day09_nestedforloop;
 
 import java.util.Scanner;
 

@@ -6,12 +6,12 @@ public class HashTable01 {
 
     public static void main(String[] args) {
 
-    //There are three maps... HashMap, HashTable,
+    //There are three maps... HashMap, HashTable01,
     /*
-        1-HashTable is a Map
-        2-HashTable does not put entries to any order, they will be in Random order.
-        3-HashTable is slower than HashMap.
-        4-HashTable is thread-safe and synchronized but hashMap is not.
+        1-HashTable01 is a Map
+        2-HashTable01 does not put entries to any order, they will be in Random order.
+        3-HashTable01 is slower than HashMap.
+        4-HashTable01 is thread-safe and synchronized but hashMap is not.
         When you use multi-thread you need to create an order for the threads, this called "synchronization"
         To create sensible order in multi-thread, is called "synchronization" (meat-soup-salad-->multithread)
 */
@@ -22,7 +22,7 @@ public class HashTable01 {
         countryPopulations.put("Turkey", 81000000);
         System.out.println(countryPopulations);
 
-        //Difference HashMap and HashTable
+        //Difference HashMap and HashTable01
 
 
         //Example 1:Store students names together with their email addresses, ages, grades, nationality

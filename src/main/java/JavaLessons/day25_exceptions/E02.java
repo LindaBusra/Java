@@ -14,7 +14,7 @@ public class E02 {
 
     }
 
-    //Create a method to get any element from an Array
+    //Create a method to get any element from an Arrays04
     public static String getElement(String a[], int idx){
 
         return  a[idx] ;

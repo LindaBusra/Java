@@ -10,7 +10,7 @@ public class List03 {
 
 
 
-// Array List
+// Arrays04 List
 
         List<String> isimler = new ArrayList<>();   // List<Object> isimler = new ArrayList<>();  dersem rakam vs de ekleyebilirim
         isimler.add("ali");

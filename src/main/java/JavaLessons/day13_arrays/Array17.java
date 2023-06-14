@@ -12,7 +12,7 @@ public class Array17 {
 //Example 1- Create a String array and print the elements whose length is less than 5
 
 /*Note:to get the number of characters from a String use "length()"
-to get the number of characters from an Array use "length"
+to get the number of characters from an Arrays04 use "length"
 
 Short way to create an array and add elements into the array  String names [] = {"Ali", "Thomas"}; */
 

@@ -20,7 +20,7 @@ public class List16 {
 ArrayLists are flexible in length.  It means while you create an ArrayList no need to declare length.
 After creating Arraylist you may store any number of elements, there is no any restriction about it.
 4-Arrays can contain "primitive" data types and "referances" but ArrayList can contain just "non-primitive data types.
-int-->Array,   but Integer-->ArrayList      */
+int-->Arrays04,   but Integer-->ArrayList      */
 
 
 
@@ -67,7 +67,7 @@ int-->Array,   but Integer-->ArrayList      */
 
         System.out.println(al2.size());     //0 henuz deger atamadim cunu.
 
-        //Note:When you tolk about the number of elements in an "Array" tell "Array length"
+        //Note:When you tolk about the number of elements in an "Arrays04" tell "Arrays04 length"
         //Note:When you tolk about the number of elements in an "ArrayList" tell "List size"
 
 
@@ -269,7 +269,7 @@ int-->Array,   but Integer-->ArrayList      */
 
         String[] alphabet = new String[]{"A", "B", "C"};
 
-        // Convert String Array to List
+        // Convert String Arrays04 to List
         List<String> list = Arrays.asList(alphabet);
 
         if(list.contains("A")) {

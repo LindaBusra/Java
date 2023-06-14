@@ -8,7 +8,7 @@ public class Array22 {
     public static void main(String[] args) {
 
 
-//Reverse a String by using Array
+//Reverse a String by using Arrays04
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string");

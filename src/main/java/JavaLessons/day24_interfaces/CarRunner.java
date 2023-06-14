@@ -21,5 +21,6 @@ public class CarRunner {
         System.out.println(Ac.climate());       //you call it with interface name. it was static
 
 
+
     }
 }

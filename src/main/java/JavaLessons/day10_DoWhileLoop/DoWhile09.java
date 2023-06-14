@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 import java.util.Scanner;
 
@@ -28,6 +28,30 @@ Otherwise, tell user "Lost!"            */
         } while (num<100);
         System.out.println("Lost");
         System.out.println();
+
+
+
+
+        //or
+
+
+
+        do{
+            System.out.println("Enter a number");
+            num = scan.nextInt();
+
+            if(num<0) {
+                System.out.println("you entered negative number, try again");
+                continue;
+            } else if(num<100) {
+                System.out.println("Won!");
+            } else {
+                System.out.println("Lost");
+                break;
+            }
+
+
+        }while(true);
 
     }
 }

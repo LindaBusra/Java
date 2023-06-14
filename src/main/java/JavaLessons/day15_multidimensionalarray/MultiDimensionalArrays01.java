@@ -46,7 +46,7 @@ public class MultiDimensionalArrays01 {
 
  //     Long way:  String brr[][] = new String[3][4];      //outher array have 3 elements, inner array have 4 elements
 
-        String brr[][] = { {"Tom","Jim"}, {"Angie"}, {"Carl", "Chris", "Ali"} };  //bu sekilde Array yaptigimizda, ic arraylerin uzunlugu farkli olabiliyor
+        String brr[][] = { {"Tom","Jim"}, {"Angie"}, {"Carl", "Chris", "Ali"} };  //bu sekilde Arrays04 yaptigimizda, ic arraylerin uzunlugu farkli olabiliyor
 
         System.out.println(Arrays.deepToString(brr));       // [[null, null, null, null], [null, null, null, null], [null, null, null, null]]
 

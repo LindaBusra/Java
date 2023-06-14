@@ -1,4 +1,4 @@
-package JavaLessons.day09_NestedForLoop;
+package JavaLessons.day09_nestedforloop;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class NestedForLoop04 {
 
         while(y<11) {
 
-            System.out.println(num + "x" + y + "=" + num*y);
+            System.out.println(num + "X" + y + "=" + num*y);
             y++;
         }
 
@@ -27,7 +27,7 @@ public class NestedForLoop04 {
 
         for(int i=1; i<11; i++) {
 
-            System.out.println(num + "x" + i + "=" + num*i);
+            System.out.println(num + "X" + i + "=" + num*i);
         }
 
 

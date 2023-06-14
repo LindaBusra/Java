@@ -57,7 +57,7 @@ String.valueOf(Object o)
 //---------------------------------------------------------------------------------------
 
 
-        //Sub array of a char Array to String
+        //Sub array of a char Arrays04 to String
 
         char ch1[] = {'p', 'r', 'o', 'g', 'r', 'a', 'm'};
         int offset = 3;         //initial offset of the subarray

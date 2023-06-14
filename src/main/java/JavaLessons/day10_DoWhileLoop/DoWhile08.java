@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ print "You gave a negative number, you exited the program".
             int num = scan.nextInt();
 
             if(num<0){
-                System.out.println("You entered an odd number and exited the application" );
+                System.out.println("You entered an odd number and exited the application!" );
                 break;
             }else{
                 if(num%2!=0){

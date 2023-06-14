@@ -17,7 +17,7 @@ package JavaLessons.day24_interfaces;
     java gives you compile time error
 
     5)Variables in an interface are "public", "static", "final"
-    "public sttaic final int price=2300";  and "int price=2300"   are same
+    "public static final int price=2300";  and "int price=2300"   are same
 
     6)Variables in interfaceses are static as default. Therefore no need to create object to access variables
     in interfaces.
@@ -60,6 +60,7 @@ public interface Ac extends BigAc {
     }
 
     //if you dont use default pr static keyword you can not put body.
+
 
 
 }

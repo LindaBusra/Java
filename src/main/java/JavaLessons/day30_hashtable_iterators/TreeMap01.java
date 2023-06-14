@@ -11,10 +11,10 @@ public class TreeMap01 {
         2-TreeMap is the slowest Map.
         3-TreeMap is not "thread-safe", and is not "synchronized"
 
-        HashMap, HashTable, TreeMap
+        HashMap, HashTable01, TreeMap
 
         //If you need key values structure you should use Maps. You will store student information, you will need maps.
-        //Map types:HashMap, HashTable, TreeMap
+        //Map types:HashMap, HashTable01, TreeMap
         //You should be familiar with their characteristics and their methods.
 
 

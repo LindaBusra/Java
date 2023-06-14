@@ -1,6 +1,4 @@
-package JavaLessons.day09_NestedForLoop;
-
-import java.util.Scanner;
+package JavaLessons.day09_nestedforloop;
 
 public class NestedForLoop02 {
     public static void main(String[] args) {
@@ -43,16 +41,16 @@ public class NestedForLoop02 {
 
 
 
-/* Example- 2:
+    /* Example- 2:
 
-1
-1234
-2
-1234
-3
-1234
+    1
+    1234
+    2
+    1234
+    3
+    1234
 
- */
+     */
 
 
 
@@ -64,6 +62,7 @@ public class NestedForLoop02 {
             System.out.println();
         }
     }
+
 
 
 

@@ -27,13 +27,13 @@ public class Array10 {
 
         while (a < x.length) {
 
-            b = b + x[a];       //b=3, a=1    3+5=8  a=2,   8+7
+            b = b + x[a];
 
             a++;
 
         }
 
-        System.out.println(b);      //15
+        System.out.println(b);
 
 
 //--------------------------------------------------------------------------------

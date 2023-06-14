@@ -1,4 +1,4 @@
-package JavaLessons.day12_StaticBlock;
+package JavaLessons.day12_staticblock;
 
 public class VariableTypes01 {
 

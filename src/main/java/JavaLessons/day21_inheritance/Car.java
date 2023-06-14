@@ -9,7 +9,7 @@ public class Car {
     }
 
     public Car() {
-        System.out.println("Car class constructor 1");
+        System.out.println("Vehicle class constructor 1");
     }
 
     public Car(String engineType) {

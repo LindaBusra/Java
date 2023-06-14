@@ -9,7 +9,7 @@ public class Array23 {
 
 //Arrange the list in alphabetical order without separating uppercase and lowercase letters.
 
-        String str[] = { "How",  "we", "use",  "For"," Each", "Loop", "in", "an", "Array"};
+        String str[] = { "How",  "we", "use",  "For"," Each", "Loop", "in", "an", "Arrays04"};
 
         String strNew[] = new String[str.length];
 

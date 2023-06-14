@@ -48,7 +48,7 @@ public class Array06 {
 //-------------------------------------------------------------------------------------------
 
 
-//Java Program to Find the Middle Element of an Array
+//Java Program to Find the Middle Element of an Arrays04
 
         //Original array
         int arr[] = {12, 22, 34, 22, 54, 6, 52, 8, 9, 34, 54, 68,10,20,30};

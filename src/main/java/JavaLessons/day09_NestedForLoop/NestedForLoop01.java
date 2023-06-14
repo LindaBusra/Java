@@ -1,4 +1,4 @@
-package JavaLessons.day09_NestedForLoop;
+package JavaLessons.day09_nestedforloop;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class NestedForLoop01 {
 
 
 
-/*Example 2-  Type this rectangle patern
+/*Example 2-  Type this rectangle pattern
 
  * * * *
  * * * *

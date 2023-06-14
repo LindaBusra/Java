@@ -64,7 +64,7 @@ public class Array05 {
         if(count>=0) {
             System.out.println("array contains " + find);
         } else {
-            System.out.println("Array does not contain " + find);
+            System.out.println("Arrays04 does not contain " + find);
         }
 
 

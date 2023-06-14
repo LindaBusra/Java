@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 public class DoWhile02 {
     public static void main(String[] args) {
@@ -40,7 +40,6 @@ do{
 
 
 
-
 //Note:By putting "true" inside the while parenthesis, we can create infinite loop and
 //we can break the loop by the codes inside the loop body.
 
@@ -61,16 +60,16 @@ do{
 
 
         int n = 10;
-        int toplam = 0;
+        int sum = 0;
 
         do{
             System.out.println("n= " +n);
-            toplam = toplam + n;
+            sum += n;
             n--;
         }
 
         while(n>0);
-        System.out.println("toplam " +toplam);
+        System.out.println("sum: " + sum);
 
  //-----------------------------------------------------------------------
 

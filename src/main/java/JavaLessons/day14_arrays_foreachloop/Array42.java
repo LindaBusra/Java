@@ -6,7 +6,7 @@ public class Array42 {
 
     public static void main(String[] args) {
 
-        //Example 3- Type code to check if a specific element exists in an Array or not, for example 98
+        //Example 3- Type code to check if a specific element exists in an Arrays04 or not, for example 98
 
 
         int arr[]  = {250, 85, 98, 25, 88, 654, 789};

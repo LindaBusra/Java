@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
             List<Courses> coursesList = new ArrayList<>();
 
 
-
             coursesList.add(courseTurkishDay);
             coursesList.add(courseTurkishNight);
             coursesList.add(courseEnglishDay);

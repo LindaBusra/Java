@@ -10,7 +10,7 @@ public class List_Summary {
 
 
 
-    //to create Array list
+    //to create Arrays04 list
 
     ArrayList<String> list2 = new ArrayList<>();
     ArrayList<String> list1 = new ArrayList<String>();
@@ -204,7 +204,7 @@ public class List_Summary {
 //
 //
 //
-////How to convert an ArrayList to an Array
+////How to convert an ArrayList to an Arrays04
 //
 //
 //        List<String> list = new ArrayList<>();
@@ -220,7 +220,7 @@ public class List_Summary {
 //
 
 
-        // How to convert an Array to an ArrayList
+        // How to convert an Arrays04 to an ArrayList
         String[] arr = { "hawk", "robin" }; // [hawk, robin]
         List<String> list = Arrays.asList(arr); // converts the array to fixed size list
 
@@ -228,7 +228,7 @@ public class List_Summary {
         System.out.println(list); // [hawk, robin]
 
 
-        //Note: If you update the elements through Array methods or List methods, both array elements and list elements
+        //Note: If you update the elements through Arrays04 methods or List methods, both array elements and list elements
         //will be affected.Because they point to the same data store.
         list.set(1, "test"); // [hawk, test]
         arr[0] = "new"; // [new, test]

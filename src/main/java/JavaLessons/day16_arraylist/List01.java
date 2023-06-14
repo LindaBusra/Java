@@ -7,7 +7,7 @@ public class List01 {
 
     public static <Char> void main(String[] args) {
 
-    //When you create an Array, you have to declare the length of the Array.
+    //When you create an Arrays04, you have to declare the length of the Arrays04.
     //But when you use "Lists" no need to declare the number of elements at the beginning
     //"Lists" are flexible for length but arrays are not
 
@@ -18,7 +18,7 @@ public class List01 {
 
    //Arrays are so fast.  //Arrays uses memory so less.
 
-    //How to create a List (Array List)
+    //How to create a List (Arrays04 List)
 
         //1.way;
 

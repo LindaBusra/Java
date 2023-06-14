@@ -1,4 +1,4 @@
-package JavaLessons.day10_DoWhileLoop;
+package JavaLessons.day10_dowhileloop;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class WhileLoops10 {
         int multp =1;
 
         while(multp<11) {
-            System.out.println(num + "x" + multp + "=" + num*multp) ;
+            System.out.println(num + "X" + multp + "=" + num*multp) ;
 
             multp++;
         }

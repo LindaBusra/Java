@@ -1,0 +1,6 @@
+Java is an OOP Language.
+OOP has 4 principals:
+1)Inheritance
+2)Polymorphism: Method overloading + method overriding
+3)Encapsulation
+4)Abstraction: Abstract class + Interface

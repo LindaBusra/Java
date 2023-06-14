@@ -6,7 +6,7 @@ public class Arrays01 {
 
     public static void main(String[] args) {
 
-// 1)Array can contain just "primitive" data types and "references"
+// 1)Arrays04 can contain just "primitive" data types and "references"
 
         //Example 1: Create an integer array with 4 elements, then find the sum of all elements
 

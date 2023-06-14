@@ -10,7 +10,7 @@ public class IfStatement03 {
 
         //Ask user to enter his age, then print his situation according to the given table.
         //0-4-->Baby    5-12-->Kid      13-20-->Young       21-30-->Adult       31-?-->Undefined
-        //Boundary Value Analysis Test
+        //Boundary Value Analysis Test1
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your age please:");

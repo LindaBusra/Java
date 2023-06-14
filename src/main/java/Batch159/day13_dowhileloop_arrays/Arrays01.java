@@ -9,9 +9,9 @@ public class Arrays01 {
 
         // 1)Arrays are for storing multiple data in same data type.
 
-        //How to create an Array
+        //How to create an Arrays04
         String stdNames [] = new String[5];             //int length = 5;
-        System.out.println(Arrays.toString(stdNames));  // [null, null, null, null, null]    (container in Heap memory when we created Array)
+        System.out.println(Arrays.toString(stdNames));  // [null, null, null, null, null]    (container in Heap memory when we created Arrays04)
 
         //How to add elements into an array
         stdNames[2] = "Tom";
@@ -29,7 +29,7 @@ public class Arrays01 {
 
         //How to get number of elements in an array
         System.out.println(stdNames.length);            //in String length(), because we dont give the length from start
-        //when I created Array, I said it has 5 elements, it puts that number in (int length=5), so it is just length.
+        //when I created Arrays04, I said it has 5 elements, it puts that number in (int length=5), so it is just length.
 
         //Example 1: Find the total number of characters used in stdNames array elements
 
